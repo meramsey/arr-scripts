@@ -68,7 +68,7 @@ curl https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/lidarr/Au
 echo "Done"
 
 echo "Download Video service..."
-curl https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/lidarr/Video.service.bash -o /custom-services.d/Video
+curl https://github.com/meramsey/arr-scripts/blob/24ebad3e8ccaf6fe3de0df2c81e2323717f01d37/lidarr/Video.service.bash -o /custom-services.d/Video
 echo "Done"
 
 echo "Download Tidal Video Downloader service..."
